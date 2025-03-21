@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Striped Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th{
+            color: #D6EEEE;
+            background-color: green;
+        }
+        tr{
+            border-bottom: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Menggunakan border bottom</h2>
+    <h4>Zebra Striped Table</h4>
+    <p>border bottom</p>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td>Alfan</td>
+            <td>Fadillah</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Rafi</td>
+            <td>Pasya</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>Putri</td>
+            <td>Alexis</td>
+            <td>$300</td>
+        </tr>
+        <tr>
+            <td>Dhani</td>
+            <td>Kusuma</td>
+            <td>$250</td>
+        </tr>
+    </table>
+
+</body>
+</html>
